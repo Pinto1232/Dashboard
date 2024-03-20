@@ -6,8 +6,8 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./features/authentication/login/login.component.css']
 })
 export class AppComponent {
-  title = 'temp-project-name';
+  title = 'Dashboard';
 }
